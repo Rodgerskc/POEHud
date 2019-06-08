@@ -7,6 +7,9 @@ using System.Runtime.InteropServices;
 
 namespace RaceHUD
 {
+    //Code for click through window found here.
+    //https://stackoverflow.com/questions/2842667/how-to-create-a-semi-transparent-window-in-wpf-that-allows-mouse-events-to-pass?rq=1
+
     class ClickThrough
     {
         public const int WS_EX_TRANSPARENT = 0x00000020;

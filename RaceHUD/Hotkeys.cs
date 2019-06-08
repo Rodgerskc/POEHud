@@ -11,6 +11,9 @@ using System.Windows.Interop;
 
 namespace RaceHUD
 {
+    //Code for low level hotkeys found here
+    //https://stackoverflow.com/questions/48935/how-can-i-register-a-global-hot-key-to-say-ctrlshiftletter-using-wpf-and-ne/9330358
+
     public class GlobalHotKey
     {
         private static Dictionary<int, GlobalHotKey> _dictHotKeyToCalBackProc;

@@ -23,10 +23,15 @@ namespace RaceHUD
     {
         public System.Drawing.Point point;
         private HUD Hud;
+
         public ConfigHUD(HUD hud)
         {
+            //breakout the hud form
             Hud = hud;
+
             InitializeComponent();
+
+            //Fullscreen
             this.Width = System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Width;
             this.Height = System.Windows.Forms.Screen.PrimaryScreen.WorkingArea.Height;
             this.Left = 0;
@@ -35,7 +40,10 @@ namespace RaceHUD
         }
         private void TxtHud_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            //make the window draggable.
             DragMove();
+
+            //Pass the Left and Top to the Hud as new Left and Top values.
             Hud.lstView.SetValue(Canvas.LeftProperty, this.Left);
             Hud.lstView.SetValue(Canvas.TopProperty, this.Top);
         }

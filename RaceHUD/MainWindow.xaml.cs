@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -61,18 +60,14 @@ namespace RaceHUD
             rh.ContextMenu = contextMenu;
         }
 
-        protected override void OnStateChanged(EventArgs e)
-        {
-            if (WindowState == WindowState.Minimized)
-                this.Hide();
-
-            base.OnStateChanged(e);
-        }
+        //main window left click to drag
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
                 this.DragMove();
         }
+
+        //system tray baloon tip
         protected void BaloonTip(NotifyIcon rh)
         {
             rh.Text = "RaceHUD";
@@ -80,6 +75,8 @@ namespace RaceHUD
             rh.BalloonTipTitle = "RaceHUD";
             rh.ShowBalloonTip(3000);
         }
+
+        //Build the system tray menu
         protected void BuildMenu(NotifyIcon rh)
         {
             contextMenu = new ContextMenu();
@@ -97,17 +94,22 @@ namespace RaceHUD
             moveHud.Click += new EventHandler(moveHUD_Click);
             stopHud.Index = 2;
             stopHud.Text = "Stop HUD";
+
+            //Stop HUD does nothing if the hud isn't active
             if (hud.WindowState == WindowState.Maximized)
             {
-                stopHud.Click += new EventHandler(exit_Click);
+                stopHud.Click += new EventHandler(stopHUD_Click);
             }
+
             dashHud.Index = 3;
             dashHud.Text = "-";
             exitHud.Index = 4;
             exitHud.Text = "Exit";
             exitHud.Click += new EventHandler(exit_Click);
         }
-        private void menuItem1_Click(object Sender, EventArgs e)
+
+        //System Tray Events
+        private void stopHUD_Click(object Sender, EventArgs e)
         {
             hud.Hide();
             confighud.Hide();
@@ -131,6 +133,8 @@ namespace RaceHUD
             hud.Close();
             confighud.Close();
         }
+
+        //Placeholder window button event
         private void Button_Click(object sender, EventArgs e)
         {
             hud.Show();

@@ -33,11 +33,18 @@ namespace RaceHUD
         public HUD(MainWindow window)
 
         {
+            //register F1 and F1 keybinds
             ghkNext = new GlobalHotKey(Key.F1, KeyModifier.None, NextStep);
             ghkLast = new GlobalHotKey(Key.F2, KeyModifier.None, LastStep);
+
             InitializeComponent();
+
+            //Load XML Document
             Doc.Load("RaceInstructions.xml");
         }
+
+        //Code for click through window found here.
+        //https://stackoverflow.com/questions/2842667/how-to-create-a-semi-transparent-window-in-wpf-that-allows-mouse-events-to-pass?rq=1
 
         protected override void OnSourceInitialized(EventArgs e)
         {
@@ -45,28 +52,39 @@ namespace RaceHUD
                 IntPtr hwnd = new System.Windows.Interop.WindowInteropHelper(this).Handle;
                 ClickThrough.makeTransparent(hwnd);
         }
+
+        //F1 Keybind function
         private void NextStep(GlobalHotKey hotKey)
         {
             questIndex += 1;
             ProcessSteps();
 
         }
+
+        //F2 Keybind function
         private void LastStep(GlobalHotKey hotKey)
         {
             questIndex -= 1;
             ProcessSteps();
         }
 
+        //unregister low level keybinds.
         private void Window_Unloaded(object sender, RoutedEventArgs e)
         {
             ghkNext.Unregister();
             ghkLast.Unregister();
         }
 
+        //Populate the ListView from the XML Document.
         private void ProcessSteps()
         {
+            //clear the listview
             lstView.Items.Clear();
+
+            //populate node collection with the step based on the questIndex
             StepActions = Doc.SelectNodes("//Step" + questIndex + "/Actions/*");
+
+            //transform nodes to stylized listviewitems
             foreach (XmlNode item in StepActions)
             {
                 if (item.Name == "msg")
@@ -122,6 +140,5 @@ namespace RaceHUD
                 }
             }
         }
-
     }
 }
