@@ -1,0 +1,24 @@
+﻿<Window x:Class="RaceHUD.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RaceHUD"
+            mc:Ignorable="d"
+        Title="RaceHUD" Height="650" Width="800"
+        Background="Black" ResizeMode="NoResize" Foreground="Black" WindowStyle="None">
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+
+        <Image Grid.Column="1" Grid.Row="0" Source="pack://application:,,,/RaceHUDBG.png" MouseDown="Window_MouseDown"></Image>
+        <Button Grid.Column="1" Grid.Row="1" MaxHeight="50" MaxWidth="250" Click="Button_Click">
+            <TextBlock TextAlignment="Center" Height='50' FontSize="36"> Draw HUD</TextBlock>
+        </Button>
+    </Grid>
+</Window>

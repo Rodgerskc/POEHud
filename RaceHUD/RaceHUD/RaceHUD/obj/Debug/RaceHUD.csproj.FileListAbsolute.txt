@@ -1,0 +1,34 @@
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\bin\Debug\RaceHUD.exe.config
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\bin\Debug\RaceHUD.exe
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\bin\Debug\RaceHUD.pdb
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD.csprojAssemblyReference.cache
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\MainWindow.g.cs
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\App.g.cs
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD_MarkupCompile.cache
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD_MarkupCompile.lref
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\MainWindow.baml
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD.g.resources
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD.Properties.Resources.resources
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD.csproj.GenerateResource.cache
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD.exe
+C:\Users\Kevin\source\repos\RaceHUD\RaceHUD\obj\Debug\RaceHUD.pdb
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\ConfigHUD.g.cs
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\HUD.g.cs
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\MainWindow.g.cs
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\App.g.cs
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD_MarkupCompile.cache
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD_MarkupCompile.lref
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\bin\Debug\RaceHUD.exe.config
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\bin\Debug\RaceHUD.exe
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\bin\Debug\RaceHUD.pdb
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\ConfigHUD.baml
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\HUD.baml
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\MainWindow.baml
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD.g.resources
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD.Properties.Resources.resources
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD.csproj.GenerateResource.cache
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD.exe
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD.pdb
+C:\Users\Kevin\Desktop\School\Contemporary Programming\RaceHUD\RaceHUD\RaceHUD\obj\Debug\RaceHUD.csprojAssemblyReference.cache

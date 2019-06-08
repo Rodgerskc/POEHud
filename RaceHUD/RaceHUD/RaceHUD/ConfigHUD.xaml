@@ -1,0 +1,22 @@
+﻿<Window x:Class="RaceHUD.ConfigHUD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RaceHUD"
+        mc:Ignorable="d"
+        Title="ConfigHUD" Height="300" Width="400" WindowStyle="None" AllowsTransparency="True">
+    <Window.Background>
+        <SolidColorBrush Color="Azure" Opacity="0"/>
+    </Window.Background>
+    <Grid>
+        <Canvas>
+            <TextBlock x:Name="txtHud" Foreground="Green" TextAlignment="Center" FontSize="24" TextWrapping="Wrap" Height="300" Width="400" MouseDown="TxtHud_MouseDown">
+                <TextBlock.Background>
+                    <SolidColorBrush Color="Gray"  Opacity="0.3" />
+                </TextBlock.Background>
+            Drag Me
+            </TextBlock>
+        </Canvas>
+    </Grid>
+</Window>

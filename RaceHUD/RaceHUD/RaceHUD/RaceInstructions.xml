@@ -1,0 +1,29 @@
+
+<XData>
+        <StormBrand>
+          <Act1>
+            <Step1>Step 1
+              <Actions>
+                <msg foreground="grey">custom message</msg>
+                <go foreground="White">Go to Zone</go>
+                <do foreground="Blue"> Do the objective</do>
+                <kill foreground="Red"> Kill the guy</kill>
+                <take foreground="Green"> Town for rewards</take>
+              </Actions>
+            </Step1>
+            <Step2>Step 2
+              <Actions>
+                <msg foreground="grey">custom message Number 2</msg>
+                <go foreground="White">Go to Zone Number 2</go>
+                <do foreground="Blue"> Do the objective Number 2</do>
+                <kill foreground="Red"> Kill the guy Number 2</kill>
+                <take foreground="Green"> Town for rewards Again</take>
+              </Actions>
+            </Step2>
+          </Act1>
+          <Act2>
+
+          </Act2>
+
+        </StormBrand>
+      </XData>

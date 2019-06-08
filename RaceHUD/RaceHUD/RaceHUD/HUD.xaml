@@ -1,0 +1,25 @@
+﻿<Window x:Class="RaceHUD.HUD"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="HUD" 
+        WindowState="Maximized" 
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        Topmost="True" 
+        Background="Transparent"
+        >
+
+
+    <Canvas>
+            <ListView x:Name="lstView" >
+            <ListView.Background>
+                <SolidColorBrush Color="Gray"  Opacity="0." />
+            </ListView.Background>
+
+        </ListView>
+        </Canvas>
+
+</Window>

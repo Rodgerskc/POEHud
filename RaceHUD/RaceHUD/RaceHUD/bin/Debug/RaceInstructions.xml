@@ -1,0 +1,685 @@
+<XData>
+        <StormBrand>
+          <Act1>
+            <Step1>
+              <Actions>
+                <msg>Start with a Scion first, who will act as a mule for us to get a free Onslaught from the first mission.</msg>
+                <kill>Kill Hillock</kill>
+                <take>Tarkleigh</take>
+                  <msg>Check vendors for B-B-G (or B-G-G) wand and movement speed boots. Place all items into personal stash. Log onto Witch.</msg>
+              </Actions>
+            </Step1>
+            <Step2>
+              <Actions>
+                <kill>Kill Hillock</kill>
+                <take>Tarkleigh</take>
+                  <msg>Check vendors for B-B-G (or B-G-G) wand and movement speed boots. Buy Explosive Trap.</msg>
+              </Actions>
+            </Step2>
+              <Step3>
+                  <Actions>
+                      <go>The Coast</go>
+                      <do>Get WP (Coast)</do>
+                      <go>Mud Flats</go>
+                      <do>Find 3 eggs</do>
+                      <go>The Submerged Passage</go>
+                      <do>Take WP (Submerged Passage) to the Coast</do>
+                  </Actions>
+              </Step3>
+              <Step4>
+                  <Actions>
+                      <go>The Tidal Island</go>
+                      <kill>Kill Hailrake</kill>
+                      <take>Nessa (Quicksilver Flask) and Tarkleigh (Frost Bomb)</take>
+                      <msg>Swap Freezing Pulse out for Frost Bomb</msg>
+                  </Actions>
+              </Step4>
+              <Step5>
+                  <Actions>
+                      <go>The Submerged Passage > The Ledge</go>
+                      <do>Get WP (Ledge)</do>
+                      <go>The Climb > The Lower Prison</go>
+                      <do>Get WP (Lower Prison) LAB 1/6</do>
+                      <take>Town, buy Added Lightning Damage</take>
+                  </Actions>
+              </Step5>
+              <Step6>
+                  <Actions>
+                      <go>The Lower Prison > The Upper Prison</go>
+                      <go>The Warden's Quarters > The Warden's Chambers</go>
+                      <kill>Kill Brutus</kill>
+                      <take>Tarkleigh (Flame Dash)</take>
+                      <msg>Use Vendor Recipe to create a '+1 to Lightning gems' wand. Make sure your B-B-G wand is magic first. Vendor the Spectral Throw (from Scion mule) + Iron Ring = Topaz Ring. Vendor Magic B-B-G wand + Topaz Ring + Orb of Alteration.</msg>
+                  </Actions>
+              </Step6>
+              <Step7>
+                  <Actions>
+                      <go>Prisoner's Gate > The Ship Graveyard</go>
+                      <do>Get WP (Ship Graveyard)</do>
+                      <do>Get All Flame</do>
+                      <go>The Ship Graveyard > The Cavern of Wrath</go>
+                      <do>Get WP (Caverns)</do>
+                      <go>The Ship Graveyard</go>
+                      <kill>Kill Fairgraves</kill>
+                      <take>Bestel, Buy Blade Vortex</take>
+                  </Actions>
+              </Step7>
+              <Step8>
+                  <Actions>
+                      <go>The Cavern of Wrath > The Cavern of Anger</go>
+                      <go>Merveil's Lair</go>
+                      <kill>Kill Merveil</kill>
+                      <take>Exit game Buy Storm Brand WP>>>Act 2</take>
+                  </Actions>
+              </Step8>
+          </Act1>
+          <Act2>
+              <Step8>
+                  <Actions>
+                      <go>The Southern Forest > The Forest Encampment</go>
+                      <go>The Old Fields > The Den</go>
+                      <kill>Kill the Great White Beast</kill>
+                      <go>The Old fields > The Crossroads</go>
+                      <do>Get WP (Xroads)</do>
+                      <go>The Fellshire Ruins (Down) > The Crypt</go>
+                      <do>LAB 2/6</do>
+                      <take>EXIT to town, Yeena (Quicksilver Flask)</take>
+                  </Actions>
+              </Step8>
+              <Step9>
+                  <Actions>
+                      <msg>Now is a good chance to prepare for Fidelitas by equipping a Topaz ring.</msg>
+                      <go>The Crossroads > The Chamber of Sins Level 1</go>
+                      <do>Get WP</do>
+                      <go>The Chamber of Sins Level 2</go>
+                      <do>LAB 3/6</do>
+                      <kill>Kill Fidelitas, pickup gem and Exit to town.</kill>
+                      <take>Greust (Herald of Thunder) Buy Brand Recall and Herald of Ice</take>
+                  </Actions>
+              </Step9>
+              <Step10>
+                  <Actions>
+                      <go>The Crossroads > The Broken Bridge</go>
+                      <kill>Bandit 1: Kill Kraityn</kill>
+                      <go>Forest Encampment > The Riverways</go>
+                      <do>Get WP(Riverways)</do>
+                      <go>The Wetlands</go>
+                      <kill>Bandit 2: Kill Oak</kill>
+                      <do>Get WP (Wetlands) take it to Riverways.</do>
+                  </Actions>
+              </Step10>
+              <Step11>
+                  <Actions>
+                      <go>Riverways > The Western Forest</go>
+                      <kill>Bandit 3: Help Alira (or kill w/e)</kill>
+                      <do>Kill the Blackguards and Open the Seal (right)</do>
+                      <go>Exit and go Submerged Passage > The Flooded Depths</go>
+                      <kill>Kill the Dweller of the Deep</kill>
+                      <take>Bestel and Tarkleigh for books</take>
+                  </Actions>
+              </Step11>
+              <Step12>
+                  <Actions>
+                      <go>The Western Forest > The Weaver's Chambers</go>
+                      <go>> The Weaver's Nest</go>
+                      <kill>Kill the Weaver and get the spike</kill>
+                      <take>Exit to town, Silk (Faster Casting) buy another one</take>
+                  </Actions>
+              </Step12>
+              <Step13>
+                  <Actions>
+                      <go>The Wetlands</go>
+                      <do>Open Tree Roots (top)</do>
+                      <go>The Vall Ruins, Break Seal > The Northern Forest.</go>
+                      <do>Get WP (Northern Forest)</do>
+                      <go>The Caverns</go>
+                  </Actions>
+              </Step13>
+              <Step14>
+                  <Actions>
+                      <do>Get WP (The Caverns)</do>
+                      <go>The Ancient Pyramid > Pyramid Apex</go>
+                      <kill>Kill Vaal Oversoul and Exit >>> Act 3</kill>
+                  </Actions>
+              </Step14>
+          </Act2>
+          <Act3>
+            <Step14>
+                  <Actions>
+                      <go>The City of Sarn</go>
+                      <do>Kill the Guards and talk to Clarissa</do>
+                      <go>The Sarn Encampment > The Slums</go>
+                      <go>The Crematorium</go>
+                      <do>Get WP (The Crematorium)</do>
+                  </Actions>
+              </Step14>
+                <Step15>
+                  <Actions>
+                      <do>LAB 4/6</do>
+                      <kill>Kill Piety and take Bracelet and EXIT</kill>
+                      <take>Maramoa (Conductivity) and Clarissa</take>
+                      <go>The Slums > Sewer Grate to Sewers</go>
+                      <do>Get WP (Sewer) Plat bust 1 and 2</do>
+                      <go>Marketplace</go>
+                      <do>Get WP (Marketplace)</do>
+                  </Actions>
+              </Step15>
+                <Step16>
+                  <Actions>
+                      <go>The Catacombs</go>
+                      <do>LAB 5/6 and EXIT</do>
+                      <go>Marketplace > Battlefront</go>
+                      <do>Blackguard chest and take ribbon spool</do>
+                      <go>The Docks</go>
+                      <do>Supply Container and take Thaumetic Sulphate</do>
+                  </Actions>
+              </Step16>
+                <Step17>
+                  <Actions>
+                      <go>The Battlefront > Soliaris Temple level 1</go>
+                      <go>The Solaris Temple Level 2</go>
+                      <do>Get WP (Level 2)</do>
+                      <take>Hargan in town</take>
+                      <do>Level 2 Lady Dialla (Jade amulet + Infernal Talc)</do>
+                  </Actions>
+              </Step17>
+                <Step18>
+                  <Actions>
+                      <go>The Sewers and unblock passage > Ebony Barracks</go>
+                      <do>Get WP (Barracks)</do>
+                      <kill>Kill Gravicius</kill>
+                      <go>Lunaris Temple Level 1</go>
+                      <msg>Start checking for 4 link items at Hargan (B-B-B-G and B-B-B-B) Buy Lightning Spire Trap - aim to be level 28 before fighting Piety, to be able to use Lightning Spire Trap Now is also a good time to consider getting 'of Staunching' suffix on a health flask to gain bleed immunity for labyrinth and Dominus. An instant life flask is advised.</msg>
+                  </Actions>
+              </Step18>
+                <Step19>
+                  <Actions>
+                      <go>The Lunaris Temple Level 2</go>
+                      <kill>Kill Piety and take Tower Key EXIT</kill>
+                      <take>Grigor</take>
+                      <go>The Ebony Barracks > Imperial Gardens</go>
+                      <do>Get WP (Gardens)</do>
+                  </Actions>
+              </Step19>
+                <Step20>
+                  <Actions>
+                      <go>The Library (top maybe?)</go>
+                      <do>Get WP (Library)</do>
+                      <go>The Archive via loose candle on wall</go>
+                      <do>4 golden pages</do>
+                      <do>Library > Siosa Buy Innervate Support (Storm Brand for non Witches)</do>
+                  </Actions>
+              </Step20>
+                <Step21>
+                  <Actions>
+                      <go>Imperial Gardens</go>
+                      <do>LAB 6/6 EXIT</do>
+                      <go>Sarn Encampment > Apsirant's Plaza</go>
+                      <do>NORMAL LAB</do>
+                      <msg>Buy Elemental Focus, Controlled Destruction and Added Lightning Damage Check elemental resistances, missing resists can be fixed by buying a Two-Stone Ring from Clarissa</msg>
+                  </Actions>
+              </Step21>
+                <Step22>
+                  <Actions>
+                      <go>Imperial Gardens > Scepter of God</go>
+                      <do>Get WP (Scepter of God)</do>
+                      <go>Tower Rooftop</go>
+                    </Actions>
+              </Step22>
+                <Step23>
+                  <Actions>
+                      <kill>Kill Dominus and EXIT</kill>
+                      <go>>>>ACT 4 The Aqueduct > Highgate</go>
+                    </Actions>
+              </Step23>
+          </Act3>
+          <Act4>
+            <Step24>
+                  <Actions>
+                      <go>Dried Lake</go>
+                      <kill>Kill Voll take Deshert's Banner</kill>
+                      <go>HighGate > Open the Mines</go>
+                      <go>Mines Level 1 > Mines Level 2</go>
+                      <do>Release Homies spirit</do>
+                    </Actions>
+              </Step24>
+                <Step25>
+                  <Actions>
+                      <go>The Crystal Veins</go>
+                      <do>Get WP (Crystal Veins)</do>
+                      <msg>At this point, if you have low cold resist, go to Kaom first, if you have low fire resist, go to Daresso first. If both are capped, follow as stated.</msg>
+                      <go>Kaom's Dream</go>
+                    </Actions>
+              </Step25>
+                <Step26>
+                  <Actions>
+                      <go>Kaom's Stronghold</go>
+                      <do>Get WP (Stronghold)</do>
+                      <go>Crystal Veins > Daresso's Dream > Grand Arena</go>
+                      <do>Get WP (Grand Arena)</do>
+                      <go>The Ring of Blades</go>
+                    </Actions>
+              </Step26>
+                <Step27>
+                  <Actions>
+                      <kill>Kill Daresso take eye of desire'</kill>
+                      <go>Kaom's Stronghold > Caldera of the King</go>
+                      <kill>Kill Kaom, take Eye of fury</kill>
+                      <take>Tasuni</take>
+                    </Actions>
+              </Step27>
+                <Step28>
+                  <Actions>
+                      <go>Crystal Veins</go>
+                      <do>Talk to Dialla</do>
+                      <go>Belly of the Beast Level 1 > Level 2 > Bowels</go>
+                      <kill>Kill Piety</kill>
+                      <go>The Harvest</go>
+                      <do>Get WP (Harvest)</do>
+                    </Actions>
+              </Step28>
+                <Step29>
+                  <Actions>
+                      <kill>Kill Maligaro take organ</kill>
+                      <kill>Kill Shavronne take organ</kill>
+                      <kill>Kill Doedre take organ</kill>
+                      <go>The Black Core</go>
+                      <kill>Kill Malachai EXIT</kill>
+                    </Actions>
+              </Step29>
+                <Step30>
+                  <Actions>
+                      <go>The Ascent</go>
+                      <do>Click Lever</do>
+                      <go>Oraith Portal >>> ACT 5</go>
+                    </Actions>
+              </Step30>
+          </Act4>
+          <Act5>
+                <Step31>
+                  <Actions>
+                      <go>The Slave Pens</go>
+                      <kill>Kill Overseer Crow</kill>
+                      <go>Overseer's Tower > The Control Blocks</go>
+                      <do>Find Miasmeter</do>
+                    </Actions>
+              </Step31>
+              <Step32>
+                  <Actions>
+                      <kill>Kill Justicar Casticus take Eye of Zeal</kill>
+                      <go>Oraith Square</go>
+                      <do>Get WP (Square) exit</do>
+                      <take>Lani (Silver Flask) and Vilenta</take>
+                  </Actions>
+              </Step32>
+              <Step33>
+                  <Actions>
+                      <go>Oraith Square > Templar Courts > Chamber of Innocence</go>
+                      <do>Get WP (Innocence)</do>
+                      <go>Sanctum of Innocence > Tourced Courts > Ruined Square</go>
+                      <do>Get WP (Ruined Square)</do>
+                  </Actions>
+              </Step33>
+              <Step34>
+                  <Actions>
+                      <go>The Ossuary</go>
+                      <do>Find Sign of Purity</do>
+                      <go>Ruined Square > The Reliquery</go>
+                      <do>Find Kitava's Torments</do>
+                      <take>Town for Lani</take>
+                  </Actions>
+              </Step34>
+              <Step35>
+                  <Actions>
+                      <go>The Ruined Square > Cathedral Rooftop > Apex</go>
+                      <kill>Kill Kitava</kill>
+                      <do>Talk to Lily</do>
+                      <go>Sail to Wraeclast >>> Act 6</go>
+                  </Actions>
+              </Step35>
+            </Act5>
+          <Act6>
+              <Step36>
+                  <Actions>
+                      <msg>Look at fixes to resistances, new rings, new armour, craft any missing resists using the Crafting Bench.</msg>
+                      <go>The Twilight Strand</go>
+                      <do>Clear the Strand</do>
+                      <take>Lily buy War Banner / Ice Bite</take>
+                  </Actions>
+              </Step36>
+                <Step37>
+                  <Actions>
+                      <go>The Coast</go>
+                      <do>Get WP (Coast)</do>
+                      <go>Tidal Island</go>
+                      <do>Find Bestel's Manuscript</do>
+                      <take>Bestel (Citrine Amulet)</take>
+                  </Actions>
+              </Step37>
+                  <Step38>
+                  <Actions>
+                      <go>The Coast > The Mud Flats</go>
+                      <kill>Kill the Dishonoured Queen take Eye of Conquest</kill>
+                      <go>Karui Fortress > Tukohama's Keep</go>
+                      <kill>Kill Tukohama</kill>
+                      <go>The Karui Fortress > The Ridge</go>
+                      <do>Get WP (The Ridge)</do>
+                  </Actions>
+              </Step38>
+                  <Step39>
+                  <Actions>
+                      <go>Lower Prison</go>
+                      <do>Get WP (LP) do LAB 1/3</do>
+                      <go>Shavronne's Tower > Prison Rooftop</go>
+                      <kill>Kill Shavronne and Brutus</kill>
+                      <go>The Warden's Chambers</go>
+                      <take>Tarkleigh</take>
+                  </Actions>
+              </Step39>
+                  <Step40>
+                  <Actions>
+                      <msg>If you have a low life pool, take Mind over Matter next, and disable Herald of Thunder, this will help with your eHP until finding better gear. If your life pool is high enough, rocket on and ignore this </msg>
+                      <go>Prisoner's Gate > Western Forest > Riverways</go>
+                      <do>Get WP (Riverways)</do>
+                      <go>Southern Forest</go>
+                      <do>Get WP (SF)</do>
+                  </Actions>
+              </Step40>
+                  <Step41>
+                  <Actions>
+                      <go>The Cave of Anger</go>
+                      <do>Open Chest take Black Flag</do>
+                      <go>The Beacon</go>
+                      <do>Get WP and escort the pillers</do>
+                      <do>Click Switch and Beacon Talk to Weylam and sail!</do>
+                  </Actions>
+              </Step41>
+                  <Step42>
+                  <Actions>
+                      <go>Sail to the Brine King's Reef</go>
+                      <do>Get WP (Reef)</do>
+                      <go>The Brine Kings Throne</go>
+                      <kill>Kill the Brine King</kill>
+                      <do>Talk to Weylam and Sail to Bridge Encampment (Set Pantheon)</do>
+                  </Actions>
+              </Step42>
+            </Act6>
+            <Act7>
+                <Step43>
+                    <Actions>
+                        <go>The Broken bridge</go>
+                        <do>Open Dirty Lockbox and take Silver Locket</do>
+                        <go>The Crossroads</go>
+                        <do>Get WP (Xroads)</do>
+                        <go>FellShire Ruins > The Crypt</go>
+                    </Actions>
+                </Step43>
+                <Step44>
+                    <Actions>
+                        <do>Get WP (Crypt) LAB 2/3</do>
+                        <do>Open Sarcophagus</do>
+                        <go>Stairs</go>
+                        <do>Open Container of Sins, take Maligaro's Map</do>
+                        <take>Town for Weylam (Granit Flask)</take>
+                    </Actions>
+                </Step44>
+                <Step45>
+                    <Actions>
+                        <go>The Crossroads > The Chamber of Sins Level 1</go>
+                        <do>Get WP (Level 1) Open Maligaro's Map with the device</do>
+                        <go>Maligaro's Sanctum > Workshop</go>
+                        <kill>Kill Maligaro take Black Venom</kill>
+                        <take>Silk (Obsidian Key) in Level 1</take>
+                    </Actions>
+                </Step45>
+                <Step46>
+                    <Actions>
+                        <go>The Chamber of Sins Level 2</go>
+                        <do>LAB 3/3</do>
+                        <go>The Den > The Ashen Fields > The Forest Encampment</go>
+                        <kill>Kill Greust</kill>
+                        <take>Helena (Greust's Necklace)</take>
+                    </Actions>
+                </Step46>
+                <Step47>
+                    <Actions>
+                        <msg>Ralakesh and Brine King Pantheon</msg>
+                        <go>The Apsirant's Plaza</go>
+                        <do>CRUEL Labyrinth</do>
+                        <msg>Take Beacon of Ruin Swap Onslaught for Ice Bite in Storm Brand setup, use Silver Flask This will be the FINAL change for gem links/sockets for leveling purposes.</msg>
+                    </Actions>
+                </Step47>
+                <Step48>
+                    <Actions>
+                        <go>The Northern Forest</go>
+                        <do>Drop portal next to Dread Thicket</do>
+                        <do>Take Gruest's Necklace to the Azmeri Shrine</do>
+                        <go>The Causeway</go>
+                        <do>Get WP (Causeway)</do>
+                    </Actions>
+                </Step48>
+                <Step49>
+                    <Actions>
+                        <do>Open Kishara's Lockbox and take the star</do>
+                        <go>The Vaal City</go>
+                        <do>Get WP (City)</do>
+                        <take>Helena and Weylam</take>
+                        <msg>Use portal to get back to The Northern Forest near The Dread Thicket</msg>
+                    </Actions>
+                </Step49>
+                <Step50>
+                    <Actions>
+                        <go>Northern Forest > Dread Thicccet</go>
+                        <do>Find all Fireflies</do>
+                        <take>Eramir</take>
+                        <go>The Vaal City</go>
+                        <do>Talk to Yeena</do>
+                    </Actions>
+                </Step50>
+                <Step51>
+                    <Actions>
+                        <go>The Temple of Decay Level 1 > Level 2 > Arakaali's Web</go>
+                        <kill>Kill Arakaali</kill>
+                        <go>The Sarn Ramparts > The Sarn Encampment >>> Act 8</go>
+                    </Actions>
+                </Step51>
+            </Act7>
+            <Act8>
+                <Step52>
+                    <Actions>
+                        <go>The Toxic Conduits > Deodre's Ceesspool</go>
+                        <do>Open Loose Crate</do>
+                        <go>The Cauldron</go>
+                        <kill>Kill Deodre the Vile</kill>
+                        <go>Sewer Outlet</go>
+                    </Actions>
+                </Step52>
+                <Step53>
+                    <Actions>
+                        <do>Get WP (Outlet)</do>
+                        <go>The Quay</go>
+                        <do>Open Sealed Casket take Ankh</do>
+                        <go>Resurrection Site</go>
+                        <kill>Kill Tolman</kill>
+                    </Actions>
+                </Step53>
+                <Step54>
+                    <Actions>
+                        <go>The Grain Gate</go>
+                        <do>Get WP (Gate)</do>
+                        <do>Kill Gemling Legionnaires</do>
+                        <go>Imperial Fields</go>
+                        <do>Get WP (Fields)</do>
+                    </Actions>
+                </Step54>
+                <Step55>
+                    <Actions>
+                        <go>Solaris Temple Level 1</go>
+                        <do>Get WP (Level 1)</do>
+                        <go>Solaris Temple Level 2</go>
+                        <kill>Kill Dawn take Sun Orb</kill>
+                        <take>Maramoa and Clarissa</take>
+                    </Actions>
+                </Step55>
+                <Step56>
+                    <Actions>
+                        <go>Solaris Temple Level 1 > Solaris Concourse</go>
+                        <do>Get WP (SConcourse)</do>
+                        <go>The Harbor Bridge and Lunaris Concourse</go>
+                        <do>Get WP (LConcourse)</do>
+                        <go>Lunaris Temple Level 1</go>
+                        <do>Get WP (Level 1)</do>
+                    </Actions>
+                </Step56>
+                <Step57>
+                    <Actions>
+                        <go>Lunaris Temple Level 2</go>
+                        <kill>Kill Dusk take Moon Orb</kill>
+                        <go>Solaris Concourse OR Lunaris Concourse</go>
+                        <go>Harbor Bridge > Sky Shrine</go>
+                    </Actions>
+                </Step57>
+                <Step58>
+                    <Actions>
+                        <kill>Kill Solaris and Lunaris</kill>
+                        <go>Blood Aqueduct (Tabula cards drop here)</go>
+                        <go>Highgate >>> ACT 9</go>
+                    </Actions>
+                </Step58>
+            </Act8>
+            <Act9>
+                <Step59>
+                    <Actions>
+                        <go>The Descent > Supply Hoist > Supply Hoist > Vastiri Desert</go>
+                        <do>Get WP (Vastiri Desert)</do>
+                        <go>The Foothills</go>
+                        <do>Get WP (Foothills)</do>
+                    </Actions>
+                </Step59>
+                <Step60>
+                    <Actions>
+                        <go>The Boiling Lake</go>
+                        <kill>Kill Basilisk take Basilisk Acid</kill>
+                        <go>Foothills > Tunnel</go>
+                        <do>LAB 2/3 GET WP (Tunnel)</do>
+                        <go>The Quarry</go>
+                        <do>Get WP (Quarry)</do>
+                    </Actions>
+                </Step60>
+                <Step61>
+                    <Actions>
+                        <go>Shrine of the Winds</go>
+                        <kill>Kill Garukhan</kill>
+                        <take>Irasha</take>
+                        <go>The Quarry > The Refinery</go>
+                        <kill>Kill General Adus</kill>
+                    </Actions>
+                </Step61>
+                <Step62>
+                    <Actions>
+                        <do>Open Theurgic Precipitate Machine and take Trarthan Powder</do>
+                        <take>Sin</take>
+                        <go>The Quarry</go>
+                        <do>Talk to Sin</do>
+                        <go>Belly of the Beast</go>
+                    </Actions>
+                </Step62>
+                <Step63>
+                    <Actions>
+                        <go>The Rotting Core > Shavronne's Sorrow</go>
+                        <kill>Kill Shavronne</kill>
+                        <go>Deodre's Despair</go>
+                        <kill>Kill Deodre</kill>
+                        <go>Maligaro's Misery</go>
+                        <kill>Kill Maligaro</kill>
+                    </Actions>
+                </Step63>
+                <Step64>
+                    <Actions>
+                        <go>The Rotting Core</go>
+                        <do>Talk to Sin</do>
+                        <go>The Black Heart</go>
+                        <kill>Kill the Depraved Trinity</kill>
+                        <do>Talk to Lily and SAIL >>> ACT 10</do>
+                    </Actions>
+                </Step64>
+                </Act9>
+            <Act10>
+                <Step65>
+                    <Actions>
+                        <go>Cathedral Rooftop > Cathedral Apex</go>
+                        <do>Kill Kitava's Cultists</do>
+                        <go>Cathedral Rooftop > Ravaged Square</go>
+                        <do>Get WP (Square)</do>
+                    </Actions>
+                </Step65>
+                <Step66>
+                    <Actions>
+                        <go>Ossuary (right behind wp) > The Bone Pits</go>
+                        <do>Find Elixir of Allure do LAB 2/3</do>
+                        <take>Weylam</take>
+                        <msg>Now we catch up on skill points missed earlier, you should be able to easily one shot these bosses.</msg>
+                    </Actions>
+                </Step66>
+                <Step67>
+                    <Actions>
+                        <go>Lunaris Concourse > Bath House</go>
+                        <do>LAB 1/3</do>
+                        <go>High Gardens > Pools of Terror</go>
+                        <kill>Kill Yugul</kill>
+                        <take>Hargan (Act 8)</take>
+                    </Actions>
+                </Step67>
+                <Step68>
+                    <Actions>
+                        <go>Prisoner's Gate (Act6) > Valley of the Fire Drinker</go>
+                        <kill>Fight Abberath</kill>
+                        <go>The Cloven Pass > Valley of the Soul Drinker</go>
+                        <kill>Kill Abberath</kill>
+                        <go>Riverways > Wetlands > The Spawning Ground</go>
+                        <kill>Kill the Puppet Mistress</kill>
+                    </Actions>
+                </Step68>
+                <Step69>
+                    <Actions>
+                        <take>Bestel and Tarkleigh (Act 6)</take>
+                        <go> The Northern Forest > The Dread Thicket > The Den of Dispair</go>
+                        <kill>Kill Gruthkul</kill>
+                        <take>Eramir(Act 7)</take>
+                    </Actions>
+                </Step69>
+                <Step70>
+                    <Actions>
+                        <go>The Apsirant's Plaza</go>
+                        <do>Complete MERC Labyrinth</do>
+                        <msg>Look for Darkshrines to make it easier</msg>
+                    </Actions>
+                </Step70>
+                <Step71>
+                    <Actions>
+                        <go>The Ravaged Square > Tourched Courts > Desecrated Chambers</go>
+                        <do>Get WP (Chambers)</do>
+                        <go>Sanctum of Innocence</go>
+                        <kill>Kill Avarius take staff</kill>
+                        <take>Bannon</take>
+                    </Actions>
+                </Step71>
+                <Step72>
+                    <Actions>
+                        <go>The Ravaged Square</go>
+                        <do>Talk to Innocence</do>
+                        <go>The Canals > Feeding Through</go>
+                        <do>Talk to Sin</do>
+                    </Actions>
+                </Step72>
+                <Step73>
+                    <Actions>
+                        <go>Alter of Hunger</go>
+                        <kill>Kill Kitava</kill>
+                        <take>Talk to Lani</take>
+                        <take>The Winner is You!</take>
+                    </Actions>
+                </Step73>
+            </Act10>
+        </StormBrand>
+      </XData>
