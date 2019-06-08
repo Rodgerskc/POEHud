@@ -3,7 +3,7 @@ Gaming Hud, leveling instructions for POE included.
 
 Programmed in C# with WPF using Visual Studio.
 
-This program is a Work in progress, many of the style elements are placeholders.
+This program is a work in progress, many of the style elements are placeholders.
 
 How to use this program:
 
