@@ -56,16 +56,22 @@ namespace RaceHUD
         //F1 Keybind function
         private void NextStep(GlobalHotKey hotKey)
         {
+            //confine questIndex to the step count.
+            if (questIndex < 73 && questIndex >= 0)
+            {
             questIndex += 1;
             setListItems();
-
+            }
         }
 
         //F2 Keybind function
         private void LastStep(GlobalHotKey hotKey)
         {
-            questIndex -= 1;
-            setListItems();
+            if (questIndex <= 73 && questIndex >= 1)
+            {
+                questIndex -= 1;
+                setListItems();
+            }
         }
 
         //unregister low level keybinds.
