@@ -1,5 +1,5 @@
 # POEHud
-Gaming Hud, leveling instructions for POE included.
+Gaming Hud, leveling instructions for WOW Classic included.
 
 Programmed in C# with WPF using Visual Studio.
 
@@ -22,6 +22,10 @@ How to use this program:
   Press F1 to proceed to the next step element in the XML file.
 
   Press F2 to go back to the previous step element in the XML file.
+  
+  Press F3 to proceed to the next chapter.
+  
+  Press F4 to go bakc to the previous chapter.
 
   From the system tray menu, "Stop Hud" will close the Hud and bring up the config window.
 
