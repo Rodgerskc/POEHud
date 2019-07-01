@@ -25,9 +25,13 @@ namespace RaceHUD
     {
         private GlobalHotKey ghkNext;
         private GlobalHotKey ghkLast;
+        private GlobalHotKey ghkNextChapter;
+        private GlobalHotKey ghkLastChapter;
         public int questIndex;
+        public int chapterIndex;
         private XmlDocument Doc = new XmlDocument();
         private XmlNodeList StepActions;
+        private XmlNode Chapter;
         public XmlNode node;
 
         public HUD(MainWindow window)
@@ -36,6 +40,8 @@ namespace RaceHUD
             //register F1 and F1 keybinds
             ghkNext = new GlobalHotKey(Key.F1, KeyModifier.None, NextStep);
             ghkLast = new GlobalHotKey(Key.F2, KeyModifier.None, LastStep);
+            ghkNextChapter = new GlobalHotKey(Key.F3, KeyModifier.None, NextChapter);
+            ghkLastChapter = new GlobalHotKey(Key.F4, KeyModifier.None, LastChapter);
 
             InitializeComponent();
 
@@ -57,7 +63,7 @@ namespace RaceHUD
         private void NextStep(GlobalHotKey hotKey)
         {
             //confine questIndex to the step count.
-            if (questIndex < 73 && questIndex >= 0)
+            if (questIndex < 2018 && questIndex >= 0)
             {
             questIndex += 1;
             setListItems();
@@ -67,18 +73,43 @@ namespace RaceHUD
         //F2 Keybind function
         private void LastStep(GlobalHotKey hotKey)
         {
-            if (questIndex <= 73 && questIndex >= 1)
+            if (questIndex <= 2018 && questIndex >= 1)
             {
                 questIndex -= 1;
                 setListItems();
             }
         }
-
+        //F3 Keybind function
+        private void NextChapter(GlobalHotKey hotKey)
+        {
+            //confine questIndex to the step count.
+            if (chapterIndex < 6 && chapterIndex >= 0)
+            {
+                chapterIndex += 1;
+                Chapter = Doc.SelectSingleNode("//Actions[@Chapter='" + chapterIndex + "']");
+                questIndex = int.Parse(Chapter.Attributes["Step"].Value);
+                setListItems();
+            }
+        }
+        //F4 Keybind function
+        private void LastChapter(GlobalHotKey hotKey)
+        {
+            //confine questIndex to the step count.
+            if (chapterIndex <= 6 && chapterIndex > 1)
+            {
+                chapterIndex -= 1;
+                Chapter = Doc.SelectSingleNode("//Actions[@Chapter='" + chapterIndex + "']");
+                questIndex = int.Parse(Chapter.Attributes["Step"].Value);
+                setListItems();
+            }
+        }
         //unregister low level keybinds.
         private void Window_Unloaded(object sender, RoutedEventArgs e)
         {
             ghkNext.Unregister();
             ghkLast.Unregister();
+            ghkNextChapter.Unregister();
+            ghkLastChapter.Unregister();
         }
 
         //Populate the ListView from the XML Document.
